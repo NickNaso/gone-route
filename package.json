@@ -1,0 +1,40 @@
+{
+  "name": "gone-route",
+  "description": "Little client side route handler",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "name": "Nicola Del Gobbo",
+      "email": "nicoladelgobbo@gmail.com"
+    }
+  ],
+  "keywords": [
+    "route",
+    "client"
+  ],
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__tests__/jasmine.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickNaso/gone-route.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NickNaso/gone-route/issues"
+  },
+  "homepage": "http://www.nacios.it/",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "jasmine": "^2.7.0"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "index.js",
+    "lib/"
+  ]
+}
